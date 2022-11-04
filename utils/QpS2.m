@@ -11,9 +11,9 @@ function [w,x_sph,x_ca] = QpS2(L,QN)
 % Output
 %  w      - weights of QN, size(w) = [1 N]
 %
-%  x_sph  - spherical coordinates for quadrature nodes, size(x_sph) = [N 3]
+%  x_sph  - spherical coordinates for quadrature nodes, size(x_sph) = [2 N]
 %
-%  x_ca   - Cartesian coordinates for quadratrue nodes, size(x_ca) = [2 N],
+%  x_ca   - Cartesian coordinates for quadratrue nodes, size(x_ca) = [3 N],
 %            first-row phi are in [0,2pi) and the second-row theta in [0,pi].
 
 %L = 100;
